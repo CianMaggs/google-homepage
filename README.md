@@ -1,4 +1,4 @@
-This is a little project to practise what I have learnt so far in HTML and CSS.
+This is a little project to practise what I have learnt so far in HTML and CSS. The goal is to recreate the google homepage as close as possible, just the styling, not with any working input output.
 
 The project is from The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
