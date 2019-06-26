@@ -48,12 +48,44 @@ table {
 	border-spacing: 0;
 }
 
+/* NAVBAR */
+
+#navbar {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+}
+
 /* Navigation Bar Top Left */
+
+nav {
+    font-size: 12px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    height: 100%;
+    vertical-align: middle;
+}
 
 .nav_left{
   font-family: arial;
   font-size: 13px;
-  padding: 0px 0px 0px 15px;
+  padding: 10px 0px 0px 10px;
   display: inline-block;
   float: left;
 }
@@ -63,7 +95,7 @@ table {
 .nav_right{
   font-family: arial;
   font-size: 13px;
-  padding: 0px 0px 0px 15px;
+  padding: 10px 0px 0px 15px;
   float: right;
 }
 
@@ -73,10 +105,46 @@ table {
 }
 
 .google_logo{
-  height: 300px;
+  height: 250px;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
+}
+
+.search_bar {
+		text-align: center;
+}
+
+.search_buttons {
+	text-align: center;
+}
+
+input {
+		margin-top: 0;
+    width: 400px;
+    border-radius: 28px;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    box-shadow: none;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+button {
+	 border: 0;
+	 border-radius: 4px;
+	 padding: 13px 20px;
+	 margin-right: 5px;
+	 background-color: #f1f1f1;
+	 font-size: 12px;
+}
+
+input:hover,
+input:active,
+input:focus {
+    border: none;
+    box-shadow: 0 0 5px rgb(177, 177, 177);
 }
